@@ -1,0 +1,70 @@
+.box{
+    width:330px;
+    height: 380px;
+    background-color: rgba(0,0,0, 0.35);
+    position: absolute;
+    top: 130px;
+    left: 500px;
+}
+.box .box-title{
+    margin-top: 10px;
+    width:330px;
+    height:50px;
+}
+.box-title p{
+    margin-left:28px;
+    display: inline-block;
+    padding: 7px 5px;
+}
+.box-title p:first-child{
+   border-bottom: 2px solid aqua;
+}
+.box-title p:first-child:hover{
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+ }
+.box-title p:last-child:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0); 
+   border-bottom: 2px solid aqua;
+ }
+.box-title p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 0 35px;
+}
+.form{
+    width: 250px;
+    height: 200px;
+    margin: 20px 70px;
+}
+.form input{
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 24px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #000;
+} 
+.form .name::placeholder{
+   color: gainsboro; 
+   letter-spacing: 1.2px;
+}
+.form .password::placeholder{
+    color:  gainsboro; 
+    letter-spacing: 1.2px;
+ }
+.form .btn{
+    border: 2px solid rgb(129, 129, 129);
+    margin-left: 140px;
+    color:aqua;
+    background-color:#000;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+ }
+.form .btn:hover{
+    background-color:rgb(0, 0, 0);
+    color: gainsboro;
+}
